@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/meo1"
+        android:layout_marginLeft="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+    <LinearLayout
+        android:id="@+id/info"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/code"
+                android:text="Code"
+                android:textSize="15dp"
+                android:textColor="@color/teal_700"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/name"
+                android:text="Name"
+                android:textSize="15dp"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/content"
+                android:text="Content"
+                android:textSize="15dp"
+                android:textColor="@color/teal_700"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/date"
+                android:text="Date"
+                android:textSize="15dp"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/action"
+                android:text="Action"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/collab"
+                android:text="Collab"
+                android:textSize="15dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+<!--            <RadioGroup-->
+<!--                android:id="@+id/active"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content">-->
+<!--                <RadioButton-->
+<!--                    android:id="@+id/chuathuchien"-->
+<!--                    android:text="Chua Thuc Hien"-->
+<!--                    android:textSize="10dp"-->
+<!--                    android:textColor="@color/teal_700"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--                <RadioButton-->
+<!--                    android:id="@+id/dangthuchien"-->
+<!--                    android:text="DANG Thuc Hien"-->
+<!--                    android:textSize="10dp"-->
+<!--                    android:textColor="@color/teal_700"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--                <RadioButton-->
+<!--                    android:id="@+id/hoanthanh"-->
+<!--                    android:text="HOAN THANH"-->
+<!--                    android:textSize="10dp"-->
+<!--                    android:textColor="@color/teal_700"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--            </RadioGroup>-->
+<!--            <RadioGroup-->
+<!--                android:id="@+id/collab"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content">-->
+<!--                <RadioButton-->
+<!--                    android:id="@+id/motminh"-->
+<!--                    android:text="MOT MINH"-->
+<!--                    android:textSize="10dp"-->
+<!--                    android:textColor="@color/teal_700"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--                <RadioButton-->
+<!--                    android:id="@+id/lamchung"-->
+<!--                    android:text="LAM CHUNG"-->
+<!--                    android:textSize="10dp"-->
+<!--                    android:textColor="@color/teal_700"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"/>-->
+<!--            </RadioGroup>-->
+    </LinearLayout>
+
+</LinearLayout>
